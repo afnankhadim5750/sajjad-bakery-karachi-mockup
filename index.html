@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Sajjad Bakery — Breads, Cakes &amp; Sweets · Gulshan-e-Iqbal, Karachi</title>
+<meta name="description" content="Sajjad Bakery on Javed Square, Block 13-B, Gulshan-e-Iqbal, Karachi — fresh breads, celebration cakes, mithai and hot samosas, open late every day. Order by phone: 021 34970298.">
+<meta property="og:title" content="Sajjad Bakery — Gulshan-e-Iqbal, Karachi">
+<meta property="og:description" content="Fresh breads, celebration cakes, mithai and hot samosas on Javed Square, Block 13-B. Open late every day.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "Sajjad Bakery",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Javed Square, Block 13-B, Gulshan-e-Iqbal",
+    "addressLocality": "Karachi",
+    "addressCountry": "PK"
+  },
+  "telephone": "+92-21-34970298",
+  "servesCuisine": "Bakery"
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#bakes">Skip to today's bakes</a>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="wordmark" href="#top" aria-label="Sajjad Bakery — back to top">
+      <span class="wordmark-name">Sajjad Bakery</span>
+      <span class="wordmark-sub">Gulshan-e-Iqbal · Karachi</span>
+    </a>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span class="menu-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="menu-toggle-label">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" data-mobile-menu aria-label="Main navigation">
+      <a href="#bakes">Bakes</a>
+      <a href="#cakes">Cakes</a>
+      <a href="#bakes" data-goto-tab="sweets">Sweets</a>
+      <a href="#daily">Daily Fresh</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+      <a class="nav-call" href="tel:+922134970298">Call to order</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- 1 · HERO — split 50/50 -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow">Gulshan-e-Iqbal · Block 13-B · Javed Square</p>
+      <h1 id="hero-title">Fresh from the oven, late into the night.</h1>
+      <p class="lede">Sajjad Bakery is the neighbourhood bakery on Javed Square — breads, celebration cakes, mithai and hot samosas, baked through the day and open late every evening.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-gold" href="tel:+922134970298">Call to order · 021 34970298</a>
+        <a class="btn btn-outline" href="#bakes">See today&rsquo;s bakes</a>
+      </div>
+      <p class="hero-note">Open every day, late into the night &nbsp;·&nbsp; Delivery available</p>
+    </div>
+    <div class="hero-photo">
+      <img src="images/hero-baguettes-1600.webp" srcset="images/hero-baguettes-800.webp 800w, images/hero-baguettes-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 50vw" width="1600" height="2133" alt="Freshly baked baguettes standing in rows on a bakery rack" fetchpriority="high">
+    </div>
+  </section>
+
+  <!-- 2 · TRUST BAR -->
+  <section class="trustbar" aria-label="Bakery at a glance">
+    <ul>
+      <li><strong>Open late</strong><span>Every day of the week</span></li>
+      <li><strong>Breads · Cakes · Sweets</strong><span>Plus samosas &amp; nimko</span></li>
+      <li><strong>Javed Square</strong><span>Block 13-B, Gulshan-e-Iqbal</span></li>
+      <li><strong>Delivery</strong><span>Ring the counter to order</span></li>
+      <li><strong>Since around 2015</strong><span>Serving the same blocks</span></li>
+    </ul>
+  </section>
+
+  <!-- 3 · BAKE BOARD (tabbed) -->
+  <section class="bakes" id="bakes" aria-labelledby="bakes-title">
+    <div class="container">
+      <p class="eyebrow eyebrow-dark">The bake board</p>
+      <h2 id="bakes-title">What&rsquo;s on the counter today</h2>
+      <p class="section-intro">Three counters, one bakery. Everything below is baked for the day and sold until it runs out — when a tray is empty, it is empty until the next bake.</p>
+      <p class="price-note">Prices on request — ring the counter for today&rsquo;s prices.</p>
+
+      <div class="tabs" role="tablist" aria-label="Bake categories">
+        <button class="tab-btn is-active" type="button" role="tab" id="tab-breads" aria-selected="true" aria-controls="panel-breads" data-tab="breads">Breads</button>
+        <button class="tab-btn" type="button" role="tab" id="tab-cakes" aria-selected="false" aria-controls="panel-cakes" data-tab="cakes" tabindex="-1">Cakes</button>
+        <button class="tab-btn" type="button" role="tab" id="tab-sweets" aria-selected="false" aria-controls="panel-sweets" data-tab="sweets" tabindex="-1">Sweets &amp; Mithai</button>
+      </div>
+
+      <div class="tab-panel" id="panel-breads" role="tabpanel" aria-labelledby="tab-breads">
+        <div class="card-grid">
+          <article class="bake-card">
+            <img src="images/sliced-milky-bread-800.webp" srcset="images/sliced-milky-bread-800.webp 800w, images/sliced-milky-bread-1600.webp 1600w" sizes="(max-width: 700px) 100vw, 33vw" width="1600" height="1067" alt="Slices of soft white milky bread on a pale surface" loading="lazy">
+            <h3>Milky bread, sliced fresh</h3>
+            <p>The everyday loaf of the block — soft, lightly sweet, sliced to order at the counter.</p>
+          </article>
+          <article class="bake-card">
+            <img src="images/sourdough-loaf-800.webp" srcset="images/sourdough-loaf-800.webp 800w, images/sourdough-loaf-1600.webp 1600w" sizes="(max-width: 700px) 100vw, 33vw" width="1600" height="2133" alt="A round crusty sourdough loaf on a wooden board beside a bread knife" loading="lazy">
+            <h3>Crusty loaves</h3>
+            <p>Dark-crusted loaves with a soft centre — for breakfast tables and evening chai alike.</p>
+          </article>
+          <article class="bake-card">
+            <img src="images/walnut-pastry-800.webp" srcset="images/walnut-pastry-800.webp 800w, images/walnut-pastry-1600.webp 1600w" sizes="(max-width: 700px) 100vw, 33vw" width="1600" height="1068" alt="Golden flaky pastries filled with walnuts, dusted with flour" loading="lazy">
+            <h3>Butter pastries</h3>
+            <p>Flaky, golden and filled — the tray that empties first most mornings.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="panel-cakes" role="tabpanel" aria-labelledby="tab-cakes" hidden>
+        <div class="card-grid">
+          <article class="bake-card">
+            <img src="images/gold-birthday-cake-800.webp" srcset="images/gold-birthday-cake-800.webp 800w, images/gold-birthday-cake-1600.webp 1600w" sizes="(max-width: 700px) 100vw, 33vw" width="1600" height="900" alt="A white and gold birthday cake with a Happy Birthday topper and gold sweets" loading="lazy">
+            <h3>Celebration cakes</h3>
+            <p>Birthday cakes made to order — tell the counter the date and how many it should serve.</p>
+          </article>
+          <article class="bake-card">
+            <img src="images/apple-tart-800.webp" srcset="images/apple-tart-800.webp 800w, images/apple-tart-1600.webp 1600w" sizes="(max-width: 700px) 100vw, 33vw" width="1600" height="2133" alt="A baked apple tart with fanned apple slices on a plate" loading="lazy">
+            <h3>Fruit tarts &amp; pies</h3>
+            <p>Buttery pastry, baked fruit, served by the slice or whole for the table.</p>
+          </article>
+          <article class="bake-card bake-card-note">
+            <h3>Ordering a cake</h3>
+            <p>Ring <a href="tel:+922134970298">021 34970298</a> with the date, the number of servings and the flavour you have in mind. Collect it from Javed Square — or ask about delivery.</p>
+            <a class="btn btn-plum" href="tel:+922134970298">Ring the counter</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="panel-sweets" role="tabpanel" aria-labelledby="tab-sweets" hidden>
+        <div class="card-grid">
+          <article class="bake-card">
+            <img src="images/mithai-platter-800.webp" srcset="images/mithai-platter-800.webp 800w, images/mithai-platter-1600.webp 1600w" sizes="(max-width: 700px) 100vw, 33vw" width="1600" height="2245" alt="A platter of mithai — barfi, ladoo and swirled sweets — in warm light" loading="lazy">
+            <h3>Mithai for the table</h3>
+            <p>Barfi, ladoo and mixed mithai by the box — for everyday sweet tooths and family occasions.</p>
+          </article>
+          <article class="bake-card">
+            <img src="images/jam-biscuits-800.webp" srcset="images/jam-biscuits-800.webp 800w, images/jam-biscuits-1600.webp 1600w" sizes="(max-width: 700px) 100vw, 33vw" width="1600" height="1067" alt="Heart and star shaped jam sandwich biscuits dusted with sugar" loading="lazy">
+            <h3>Jam biscuits</h3>
+            <p>Short, sugared sandwich biscuits with a jam centre — a chai-time regular.</p>
+          </article>
+          <article class="bake-card">
+            <img src="images/biscuit-tin-800.webp" srcset="images/biscuit-tin-800.webp 800w, images/biscuit-tin-1600.webp 1600w" sizes="(max-width: 700px) 100vw, 33vw" width="1600" height="2090" alt="A round tin of assorted bakery biscuits in paper cups" loading="lazy">
+            <h3>The biscuit tin</h3>
+            <p>Mixed bakery biscuits, packed for the house or for gifting — ask at the counter for the day&rsquo;s selection.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · CAKES FEATURE -->
+  <section class="feature-cakes" id="cakes" aria-labelledby="cakes-title">
+    <div class="container feature-split">
+      <div class="feature-photo">
+        <img src="images/celebration-cake-800.webp" srcset="images/celebration-cake-800.webp 800w, images/celebration-cake-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 45vw" width="1600" height="2409" alt="A colourful celebration cake with candles on a stand, surrounded by yellow balloons" loading="lazy">
+      </div>
+      <div class="feature-copy">
+        <p class="eyebrow">Cakes, made to order</p>
+        <h2 id="cakes-title">A cake for every table in Gulshan.</h2>
+        <p>Birthdays, nikkahs, family dinners, a promotion at the office — the cake counter works to the date you give it. Pick a size, pick a flavour, and the bakery bakes it for that day.</p>
+        <ol class="steps">
+          <li><div class="step-body"><strong>Ring the counter</strong><span>021 34970298 — any day, while the bakery is open.</span></div></li>
+          <li><div class="step-body"><strong>Tell us the day</strong><span>The date, how many it should serve, and the flavour.</span></div></li>
+          <li><div class="step-body"><strong>Collect or deliver</strong><span>Pick it up from Javed Square, or ask about delivery.</span></div></li>
+        </ol>
+        <a class="btn btn-gold" href="tel:+922134970298">Order a cake by phone</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · STICKY SIDE — the bakery + a day at Sajjad -->
+  <section class="daily" id="daily" aria-labelledby="daily-title">
+    <div class="container daily-grid">
+      <aside class="daily-sticky">
+        <p class="eyebrow">Daily fresh</p>
+        <h2 id="daily-title">The bakery at Javed Square</h2>
+        <p>Sajjad Bakery has served Block 13-B from Javed Square since around 2015 — a counter bakery for the blocks around it, where bread, cakes and mithai share the same shelves as hot samosas.</p>
+        <div class="hours-card">
+          <h3>Hours</h3>
+          <p><strong>Open every day</strong><br>Late into the night</p>
+          <p class="hours-note">Closing times are not published — ring ahead on the day to confirm.</p>
+          <a class="btn btn-gold" href="tel:+922134970298">Call 021 34970298</a>
+        </div>
+      </aside>
+      <div class="daily-scroll">
+        <h3 class="daily-sub">How a day runs here</h3>
+        <ol class="timeline">
+          <li>
+            <span class="timeline-time">Morning</span>
+            <h4>The ovens are on</h4>
+            <p>The first bread of the day comes out of the oven, and the counter starts to fill.</p>
+            <img src="images/oven-loaves-800.webp" srcset="images/oven-loaves-800.webp 800w, images/oven-loaves-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 45vw" width="1600" height="1061" alt="Round loaves baking inside a commercial oven" loading="lazy">
+          </li>
+          <li>
+            <span class="timeline-time">Midday</span>
+            <h4>The counter fills</h4>
+            <p>Breads, biscuits and the cake fridge — the full range, ready for the lunch-hour rush.</p>
+          </li>
+          <li>
+            <span class="timeline-time">Evening</span>
+            <h4>Hot counter, cake collections</h4>
+            <p>Samosas and pakoras come off the hot counter, and the day&rsquo;s ordered cakes are collected for the night&rsquo;s gatherings.</p>
+            <img src="images/dusting-pastries-800.webp" srcset="images/dusting-pastries-800.webp 800w, images/dusting-pastries-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 45vw" width="1600" height="2400" alt="A baker dusting fresh pastries with icing sugar through a sieve" loading="lazy">
+          </li>
+          <li>
+            <span class="timeline-time">Late night</span>
+            <h4>Still open</h4>
+            <p>The bakery stays open late, so the last customer of the night can still take bread home for tomorrow&rsquo;s breakfast.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 · HOT COUNTER -->
+  <section class="counter" id="counter" aria-labelledby="counter-title">
+    <div class="container counter-grid">
+      <div class="counter-copy">
+        <p class="eyebrow eyebrow-dark">From the hot counter</p>
+        <h2 id="counter-title">Samosas, pakoras &amp; nimko</h2>
+        <p>It is not only a sweet shop. The hot counter runs through the day for the savoury side of chai time.</p>
+        <ul class="counter-list">
+          <li><strong>Samosas</strong><span>Crisp pastry, spiced filling — from the hot counter.</span></li>
+          <li><strong>Pakoras</strong><span>Fried through the day, sold while they are hot.</span></li>
+          <li><strong>Nimko</strong><span>Savoury nimko by the bag, for the chai table at home.</span></li>
+        </ul>
+      </div>
+      <figure class="counter-photo">
+        <img src="images/bakery-counter-800.webp" srcset="images/bakery-counter-800.webp 800w, images/bakery-counter-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 45vw" width="1600" height="2400" alt="Jars of biscuits and bakes arranged on a bakery counter" loading="lazy">
+        <figcaption>Biscuits and bakes on the counter.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 7 · WHY GULSHAN CHOOSES SAJJAD -->
+  <section class="why" id="why" aria-labelledby="why-title">
+    <div class="container">
+      <p class="eyebrow">Why Gulshan chooses Sajjad</p>
+      <h2 id="why-title">The neighbourhood&rsquo;s bakery, on its own square.</h2>
+      <div class="why-grid">
+        <article>
+          <h3>Open late</h3>
+          <p>Open every day, late into the night — for the bread run after dinner and the cake picked up on the way home.</p>
+        </article>
+        <article>
+          <h3>One stop</h3>
+          <p>Bread, cakes, mithai and savoury snacks under one roof on Javed Square — no need for three different shops.</p>
+        </article>
+        <article>
+          <h3>Delivery</h3>
+          <p>Orders can be delivered. Ring the counter on 021 34970298 and ask about delivery to your block.</p>
+        </article>
+        <article>
+          <h3>Since around 2015</h3>
+          <p>A decade on the same square, serving the same blocks — the bakery the neighbourhood grew up with.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8 · GALLERY -->
+  <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+    <div class="container">
+      <p class="eyebrow eyebrow-dark">From the counter</p>
+      <h2 id="gallery-title">A look at the bakes</h2>
+      <p class="section-intro">Cupcakes, croissants, doughnuts, cookies and muffins — the kind of trays you will find on the counter.</p>
+      <div class="gallery-grid">
+        <button type="button" class="gallery-item" data-full="images/cupcakes-display-1600.webp" data-alt="Colourful cupcakes with swirled frosting in a bakery display case" aria-label="View photo: colourful cupcakes in a display case">
+          <img src="images/cupcakes-display-800.webp" srcset="images/cupcakes-display-800.webp 800w, images/cupcakes-display-1600.webp 1600w" sizes="(max-width: 700px) 50vw, 33vw" width="1600" height="1067" alt="Colourful cupcakes with swirled frosting in a bakery display case" loading="lazy">
+        </button>
+        <button type="button" class="gallery-item" data-full="images/croissants-1600.webp" data-alt="A pile of golden baked croissants" aria-label="View photo: golden croissants">
+          <img src="images/croissants-800.webp" srcset="images/croissants-800.webp 800w, images/croissants-1600.webp 1600w" sizes="(max-width: 700px) 50vw, 33vw" width="1600" height="2400" alt="A pile of golden baked croissants" loading="lazy">
+        </button>
+        <button type="button" class="gallery-item" data-full="images/sprinkle-doughnuts-1600.webp" data-alt="Two doughnuts with chocolate and white icing and rainbow sprinkles" aria-label="View photo: sprinkle doughnuts">
+          <img src="images/sprinkle-doughnuts-800.webp" srcset="images/sprinkle-doughnuts-800.webp 800w, images/sprinkle-doughnuts-1600.webp 1600w" sizes="(max-width: 700px) 50vw, 33vw" width="1600" height="1243" alt="Two doughnuts with chocolate and white icing and rainbow sprinkles" loading="lazy">
+        </button>
+        <button type="button" class="gallery-item" data-full="images/choc-chip-cookies-1600.webp" data-alt="Chocolate chip cookies on a yellow plate" aria-label="View photo: chocolate chip cookies">
+          <img src="images/choc-chip-cookies-800.webp" srcset="images/choc-chip-cookies-800.webp 800w, images/choc-chip-cookies-1600.webp 1600w" sizes="(max-width: 700px) 50vw, 33vw" width="1600" height="1004" alt="Chocolate chip cookies on a yellow plate" loading="lazy">
+        </button>
+        <button type="button" class="gallery-item" data-full="images/muffins-tray-1600.webp" data-alt="Chocolate and plain muffins fresh from a baking tray" aria-label="View photo: muffins in a baking tray">
+          <img src="images/muffins-tray-800.webp" srcset="images/muffins-tray-800.webp 800w, images/muffins-tray-1600.webp 1600w" sizes="(max-width: 700px) 50vw, 33vw" width="1600" height="2400" alt="Chocolate and plain muffins fresh from a baking tray" loading="lazy">
+        </button>
+        <button type="button" class="gallery-item" data-full="images/pink-cupcakes-1600.webp" data-alt="Pink frosted cupcakes with star sprinkles" aria-label="View photo: pink frosted cupcakes">
+          <img src="images/pink-cupcakes-800.webp" srcset="images/pink-cupcakes-800.webp 800w, images/pink-cupcakes-1600.webp 1600w" sizes="(max-width: 700px) 50vw, 33vw" width="1600" height="1067" alt="Pink frosted cupcakes with star sprinkles" loading="lazy">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 · VISIT & HOURS -->
+  <section class="visit" id="visit" aria-labelledby="visit-title">
+    <div class="container visit-grid">
+      <div class="visit-copy">
+        <p class="eyebrow">Visit</p>
+        <h2 id="visit-title">Find the bakery</h2>
+        <address>
+          <strong>Sajjad Bakery</strong><br>
+          Javed Square, Block 13-B<br>
+          Gulshan-e-Iqbal, Karachi
+        </address>
+        <p class="visit-phone">Phone: <a href="tel:+922134970298">021 34970298</a></p>
+        <p><strong>Hours:</strong> open every day, late into the night. Closing times are not published — ring ahead on the day to confirm.</p>
+        <p><strong>Delivery:</strong> available — ring the counter and ask.</p>
+        <div class="visit-ctas">
+          <a class="btn btn-gold" href="https://www.google.com/maps/search/?api=1&amp;query=Sajjad+Bakery+Gulshan-e-Iqbal+Karachi" target="_blank" rel="noopener">Open in Google Maps</a>
+          <a class="btn btn-outline-light" href="tel:+922134970298">Call the bakery</a>
+        </div>
+      </div>
+      <div class="visit-map">
+        <iframe title="Map — Sajjad Bakery, Javed Square, Block 13-B, Gulshan-e-Iqbal, Karachi" src="https://www.google.com/maps?q=Sajjad+Bakery+Gulshan-e-Iqbal+Karachi&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10 · FAQ -->
+  <section class="faq" id="faq" aria-labelledby="faq-title">
+    <div class="container container-narrow">
+      <p class="eyebrow eyebrow-dark">Good to know</p>
+      <h2 id="faq-title">Questions, answered</h2>
+      <div class="faq-list">
+        <details>
+          <summary>Do you deliver?</summary>
+          <p>Yes — delivery is available. Ring 021 34970298 and ask about delivery to your block.</p>
+        </details>
+        <details>
+          <summary>Can I order a cake by phone?</summary>
+          <p>Yes. Ring the counter, tell us the date and how many people the cake should serve, and collect it from Javed Square — or ask for delivery.</p>
+        </details>
+        <details>
+          <summary>What time do you close?</summary>
+          <p>The bakery opens every day and stays open late. Closing times are not published, so ring ahead on the day to confirm.</p>
+        </details>
+        <details>
+          <summary>Do you sell samosas and pakoras?</summary>
+          <p>Yes — samosas and pakoras are on the hot counter, along with nimko for the chai table.</p>
+        </details>
+        <details>
+          <summary>How much does a cake cost?</summary>
+          <p>Prices vary by size and design. Ring the counter, describe the cake, and the bakery will quote you for it.</p>
+        </details>
+        <details>
+          <summary>Where exactly are you?</summary>
+          <p>Javed Square, Block 13-B, Gulshan-e-Iqbal, Karachi. Use the map above or the “Open in Google Maps” button for directions.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11 · ORDER BY PHONE -->
+  <section class="order" id="order" aria-labelledby="order-title">
+    <div class="container">
+      <div class="order-card">
+        <p class="eyebrow">Order by phone</p>
+        <h2 id="order-title">Ring the counter. That&rsquo;s the whole system.</h2>
+        <p>There is no online ordering — everything goes through the counter phone. Have three things ready when you ring:</p>
+        <ol class="order-list">
+          <li><strong>What you&rsquo;d like</strong><span>Bread, a cake, mithai, samosas — and how much.</span></li>
+          <li><strong>When you need it</strong><span>Today, or the date for a cake order.</span></li>
+          <li><strong>Pickup or delivery</strong><span>Collect from Javed Square, or ask about delivery.</span></li>
+        </ol>
+        <a class="btn btn-gold btn-large" href="tel:+922134970298">Call 021 34970298</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-wordmark">Sajjad Bakery</p>
+      <p class="footer-sub">Breads · Cakes · Sweets &amp; Mithai · Samosas</p>
+      <p>Javed Square, Block 13-B, Gulshan-e-Iqbal, Karachi<br>Phone: <a href="tel:+922134970298">021 34970298</a></p>
+    </div>
+    <nav aria-label="Footer navigation">
+      <a href="#bakes">Bakes</a>
+      <a href="#cakes">Cakes</a>
+      <a href="#daily">Daily Fresh</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <div>
+      <p><strong>Hours</strong><br>Open every day, late into the night.</p>
+      <p><a class="btn btn-outline-light" href="tel:+922134970298">Call to order</a></p>
+    </div>
+  </div>
+  <div class="container footer-legal">
+    <p>Design concept by CodeCrafters Hub — not the official website of Sajjad Bakery.</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="lightbox-close" type="button" aria-label="Close photo viewer">&times;</button>
+  <button class="lightbox-prev" type="button" aria-label="Previous photo">&#8249;</button>
+  <img id="lightbox-img" src="" alt="">
+  <button class="lightbox-next" type="button" aria-label="Next photo">&#8250;</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
